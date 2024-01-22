@@ -137,6 +137,9 @@ Open the file `/usr/share/alsa-card-profile/mixer/paths/` + `your-output-name` +
 state.plugged = unknown
 state.unplugged = unknown
 ```
+
+这里就可以了，以下设置会导致在选择扬声器是两个一起响
+
 - Comment (by adding semi-colon on start of line) the `[Element ...]` that matches the selected `[Jack ...]`
 ```ini
 ; [Element Headphone]
